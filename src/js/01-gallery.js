@@ -6,7 +6,7 @@ const galleryEl = document.querySelector(".gallery");
 const itemsMarkup = createItemMarkup(galleryItems);
 galleryEl.insertAdjacentHTML("beforeend", itemsMarkup);
 
-console.log(createItemMarkup(galleryItems));
+//console.log(createItemMarkup(galleryItems));
 
 function createItemMarkup(items) {
   return items
